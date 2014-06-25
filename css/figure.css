@@ -1,3 +1,6 @@
+.clearfix {
+    clear: both;
+}
 div.box {
     width: 100px;
     height: 100px;
@@ -26,4 +29,22 @@ div.triangle.yokuwakaran {
     border-right: 25px solid #000;
     border-bottom: 30px solid transparent;
     border-left: 25px solid #000;
+}
+div.box.round {
+    background: #000;
+    border-radius: 50px;
+    z-index: 10;
+}
+div.box.semi-spehre {
+    background: #000;
+    border-radius: 0 0 50px 50px / 0 0 100px 100px;
+}
+div.box > div.ear {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-top: 20px solid transparent;
+    border-right: 25px solid #000;
+    border-left: 25px solid #000;
+    z-index: 1;
 }
