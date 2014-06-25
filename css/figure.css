@@ -1,0 +1,29 @@
+div.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+div.triangle {
+    width: 0;
+    height: 0;
+}
+div.triangle.color {
+    border-top: 50px solid #000;
+    border-right: 50px solid #F00;
+    border-bottom: 50px solid #0F0;
+    border-left: 50px solid #00F;
+}
+div.triangle.top {
+    border-top: 100px solid #000;
+    border-right: 80px solid transparent;
+    border-left: 20px solid transparent;
+}
+div.triangle.yokuwakaran {
+    width: 30px;
+    height: 30px;
+    border-top: 10px solid transparent;
+    border-right: 25px solid #000;
+    border-bottom: 30px solid transparent;
+    border-left: 25px solid #000;
+}
