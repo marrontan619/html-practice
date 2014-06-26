@@ -1,0 +1,36 @@
+
+.out {
+    width:600px;
+    height:auto;
+    margin:auto;
+}
+
+div.letter > div {
+    position:absolute;
+}
+
+.letter {
+    position:relative;
+    width:80px;
+    margin:10px;
+    background-color:rgba(100 100 100 10);
+}
+
+div.G.round {
+    top:0;
+    left:0;
+    height:60px;
+    width:40px;
+    background:#FFF;
+    border-radius:30px / 40px;
+    border:20px solid #36F;
+}
+
+div.G.horizon {
+    top:30px;
+    left:45px;
+    height:20px;
+    width:50px;
+    background:#FFF;
+    border-bottom:15px solid #36F;
+}
