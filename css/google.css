@@ -146,3 +146,27 @@ div.l > div.l.triangle.bottom.down {
     border-bottom: 10px solid #4aaa0e;
     border-left: 5px solid transparent;
 }
+
+div.e > .round {
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 90px;
+    border-radius: 30px / 35px;
+}
+
+div.e > .round > .inner {
+    margin: 15px auto;
+    width: 40px;
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 30px / 35px;
+}
+
+div.e > div.stick {
+    top: 55px;
+    left: 40px;
+    height: 15px;
+    width: 60px;
+    border-bottom: 5px solid #FFF;
+}
