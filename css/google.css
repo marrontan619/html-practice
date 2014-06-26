@@ -1,36 +1,147 @@
+.orange {
+    background: orange;
+}
+
+.blue {
+    background-color: #36F;
+}
+
+.red {
+    background: #aa0e0e;
+}
+
+.green {
+    background: #4aaa0e;
+}
 
 .out {
-    width:600px;
-    height:auto;
-    margin:auto;
+    width: 600px;
+    height: auto;
+    margin: auto;
 }
 
 div.letter > div {
-    position:absolute;
+    position: absolute;
 }
 
 .letter {
-    position:relative;
-    width:80px;
-    margin:10px;
-    background-color:rgba(100 100 100 10);
+    position: relative;
+    width: 80px;
+    margin: 10px;
+    float: left;
 }
 
-div.G.round {
-    top:0;
-    left:0;
-    height:60px;
-    width:40px;
-    background:#FFF;
-    border-radius:30px / 40px;
-    border:20px solid #36F;
+div.G > .round {
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 40px;
+    background: #FFF;
+    border-radius: 30px / 40px;
+    border: 20px solid #36F;
 }
 
-div.G.horizon {
-    top:30px;
-    left:45px;
-    height:20px;
-    width:50px;
-    background:#FFF;
-    border-bottom:15px solid #36F;
+div.G >.horizon {
+    top: 30px;
+    left: 45px;
+    height: 20px;
+    width: 50px;
+    background: #FFF;
+    border-bottom: 15px solid #36F;
+}
+
+div.o > .round,
+div.g > .round {
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 80px;
+    border-radius: 30px / 35px;
+}
+
+div.g > .round > .inner,
+div.o > .round > .inner {
+    margin: 15px auto;
+    width: 30px;
+    height: 45px;
+    background-color: #FFF;
+    border-radius: 30px / 35px;
+}
+
+div.g > .midbar + .round {
+    top: 110px;
+    left: 15px;
+    width: 80px;
+    height: 70px;
+    border-radius: 30px / 35px;
+}
+
+div.g > .midbar + .round > .inner {
+    margin: 20px auto;
+    width: 45px;
+    height: 30px;
+    border-radius: 30px / 35px;
+}
+
+div.g > .topbar {
+    top: 20px;
+    left: 60px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #36F;
+    border-right: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid #36F;
+}
+
+div.g > .midbar {
+    top: 85px;
+    left: 57px;
+    width: 20px;
+    height: 35px;
+    transform: rotate(-10deg);
+}
+    
+div.letter.l > div.stick {
+    top: 10px;
+    left: 40px;
+    width: 20px;
+    height: 150px;
+}
+
+div.l > div.l.triangle {
+    width: 0px;
+    height: 0px;
+}
+
+div.l > div.l.triangle.top {
+    top: 5px;
+    left: 35px;
+    border-top: 10px solid #4aaa0e;
+    border-right: 5px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+div.l > div.l.triangle.top:first-child {
+    border-top: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 10px solid #4aaa0e;
+    border-left: 5px solid transparent;
+}
+
+div.l > div.l.triangle.bottom {
+    top: 155px;
+    left: 30px;
+    border-top: 10px solid #4aaa0e;
+    border-right: 5px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+div.l > div.l.triangle.bottom.down {
+    border-top: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 10px solid #4aaa0e;
+    border-left: 5px solid transparent;
 }
