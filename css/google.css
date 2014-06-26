@@ -100,6 +100,7 @@ div.g > .midbar {
     width: 20px;
     height: 35px;
     transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
 }
     
 div.letter.l > div.stick {
