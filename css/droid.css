@@ -81,3 +81,98 @@ div.droid > div.leg {
     border-radius: 0px 0px 40px 40px / 0px 0px 40px 40px;
     -webkit-box-reflect: right 29px;
 }
+
+div.frame > div.letters {
+    position: absolute;
+    top: 450px;
+    width: 500px;
+    height: 100px;
+}
+
+div.letters > div {
+    position: relative;
+    width: 40px;
+    float: left;
+}
+
+div.letters > div.a {
+    top: 14px;
+    left: 25px;
+    height: 45px;
+    border: 10px solid #FFF;
+    border-radius: 40px 0px 0px 40px / 40px 0px 0px 40px;
+}
+
+div.a > div.stick {
+    position: relative;
+    top: 42px;
+    left: 25px;
+    width: 15px;
+    height: 15px;
+    background: rgb(0, 102, 160);
+}
+
+div.letters > div.n {
+    top: 10px;
+    left: 40px;
+    height: 60px;
+    border-radius: 50px 50px 0px 0px / 50px 50px 0px 0px;
+    border-top: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+    border-left: 10px solid #FFF;
+}
+
+div.letters > div.d {
+    top: 13px;
+    left: 55px;
+    height: 47px;
+    border-radius: 0px 50px 50px 0px / 0px 50px 50px 0px;
+    border-top: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+    border-bottom: 10px solid #FFF;
+}
+
+div.letters > div.r {
+    top: 12px;
+    left: 67px;
+    height: 70px;
+}
+
+div.r > div.top {
+    height: 30px;
+    width: 40px;
+    border-radius: 0px 50px 50px 0px / 0px 50px 50px 0px;
+    border-top: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+    border-bottom: 10px solid #FFF;
+}
+
+div.r > div.bottom {
+    margin-top: -10px;
+    height: 20px;
+    width: 40px;
+    border-radius: 0px 50px 0px 0px / 0px 50px 0px 0px;
+    border-top: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+}
+
+div.letters > div.o {
+    top: 12px;
+    left: 88px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 10px solid #FFF;
+}
+
+div.letters > div.i {
+    top: 12px;
+    left: 108px;
+    width: 15px;
+    height: 70px;
+    background: #FFF;
+}
+
+div.letters > div.i + div.d {
+    left: 132px;
+}
