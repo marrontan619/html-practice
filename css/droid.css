@@ -1,12 +1,13 @@
 div.frame {
     width: 500px;
-    height: 500px;
+    height: 550px;
     margin: auto;
     background: rgb(0, 102, 160);
 }
 
 div.droid > div {
     position: relative;
+    border: 10px solid #FFF;
     background-color: #62d01a;
 }
 
@@ -16,7 +17,6 @@ div.droid > div.head {
     width: 220px;
     height: 100px;
     border-radius: 120px 120px 0px 0px / 120px 120px 0px 0px;
-    border: 10px solid #FFF;
 }
 
 div.head > div.tentacle {
@@ -34,12 +34,14 @@ div.head > div.tentacle.left {
     top: -37px;
     left: 18px;
     transform: rotate(-33deg);
+    -webkit-transform: rotate(-33deg);
 }
 
 div.head > div.tentacle.right {
     top: -98px;
     left: 178px;
-    transform: rotate(33deg);
+    transform: rotateX(33deg);
+    -webkit-transform: rotate(33deg);
 }
 
 div.head > div.eye {
@@ -51,4 +53,31 @@ div.head > div.eye {
     background: #FFF;
     border-radius: 10px;
     box-shadow: 80px 0px #FFF;
+}
+
+div.droid > div.body {
+    top: 10px;
+    left: 135px;
+    width: 220px;
+    height: 200px;
+    border-radius: 0px 0px 20px 20px / 0px 0px 20px 20px;
+}
+
+div.droid > div.arm {
+    top: -210px;
+    left: 85px;
+    width: 40px;
+    height: 150px;
+    border-radius: 40px / 40px;
+    -webkit-box-reflect: right 220px;
+}
+
+div.droid > div.leg {
+    top: -170px;
+    left: 168px;
+    width: 50px;
+    height: 91px;
+    border-top-style: none;
+    border-radius: 0px 0px 40px 40px / 0px 0px 40px 40px;
+    -webkit-box-reflect: right 29px;
 }
