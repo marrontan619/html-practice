@@ -37,3 +37,15 @@ body {
 .ninth {
   background: rgb(255, 28, 249);
 }
+
+#up-down-arrows {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+}
+
+#block-up-arrow,
+#block-down-arrow {
+  background: #fff;
+  font-size: 30px;
+}
