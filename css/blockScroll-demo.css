@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+}
+
+.first {
+  background: rgb(255, 142, 14);
+}
+
+.second {
+  background: rgba(64, 252, 0, 0.25);
+}
+
+.third {
+  background: rgb(43, 140, 224);
+}
+
+.fourth {
+  background: rgb(68, 199, 0);
+}
+
+.fifth {
+  background: rgb(247, 255, 52);
+}
+
+.sixth {
+  background: rgb(255, 6, 6);
+}
+
+.seventh {
+  background: rgb(255, 116, 116);
+}
+
+.eighth {
+  background: rgb(56, 246, 255);
+}
+
+.ninth {
+  background: rgb(255, 28, 249);
+}
