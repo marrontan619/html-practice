@@ -8,7 +8,11 @@
   <script src="../js/blockScroll.js"></script>
   <script>
     $(function() {
-      var blockScroller = $('#main-wrap').blockScroll();
+      var blockScroller = $('#main-wrap').blockScroll({
+        scrollDuration: 200,
+        fadeBlocks: false,
+        fadeDuration: 0
+      });
       $('#first-button').on( 'click', function() { blockScroller.goto(1); } );
       $('#second-button').on( 'click', function() { blockScroller.goto(2); } );
       $('#third-button').on( 'click', function() { blockScroller.goto(3); } );
