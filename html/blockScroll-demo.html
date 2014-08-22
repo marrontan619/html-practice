@@ -9,11 +9,31 @@
   <script>
     $(function() {
       var blockScroller = $('#main-wrap').blockScroll();
+      $('#first-button').on( 'click', function() { blockScroller.goto(1); } );
+      $('#second-button').on( 'click', function() { blockScroller.goto(2); } );
+      $('#third-button').on( 'click', function() { blockScroller.goto(3); } );
+      $('#fourth-button').on( 'click', function() { blockScroller.goto(4); } );
+      $('#fifth-button').on( 'click', function() { blockScroller.goto(5); } );
+      $('#sixth-button').on( 'click', function() { blockScroller.goto(6); } );
+      $('#seventh-button').on( 'click', function() { blockScroller.goto(7); } );
+      $('#eighth-button').on( 'click', function() { blockScroller.goto(8); } );
+      $('#ninth-button').on( 'click', function() { blockScroller.goto(9); } );
     });
   </script>
   <title>Block Scrollの練習</title>
 </head>
 <body>
+ <div class="top-menu">
+    <span class="toc-button" id="first-button">First</span>
+    <span class="toc-button" id="second-button">Second</span>
+    <span class="toc-button" id="third-button">Third</span>
+    <span class="toc-button" id="fourth-button">Fourth</span>
+    <span class="toc-button" id="fifth-button">Fifth</span>
+    <span class="toc-button" id="sixth-button">Sixth</span>
+    <span class="toc-button" id="seventh-button">Seventh</span>
+    <span class="toc-button" id="eighth-button">Eighth</span>
+    <span class="toc-button" id="ninth-button">Ninth</span>
+  </div>
   <div id="main-wrap">
     <div class="first">
       <h1>First</h1>

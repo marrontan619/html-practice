@@ -2,39 +2,48 @@ body {
   overflow: hidden;
 }
 
-.first {
+.first,
+#first-button {
   background: rgb(255, 142, 14);
 }
 
-.second {
+.second,
+#second-button {
   background: rgba(64, 252, 0, 0.25);
 }
 
-.third {
+.third,
+#third-button {
   background: rgb(43, 140, 224);
 }
 
-.fourth {
+.fourth,
+#fourth-button {
   background: rgb(68, 199, 0);
 }
 
-.fifth {
+.fifth,
+#fifth-button {
   background: rgb(247, 255, 52);
 }
 
-.sixth {
+.sixth,
+#sixth-button {
   background: rgb(255, 6, 6);
 }
 
-.seventh {
+.seventh,
+#seventh-button {
   background: rgb(255, 116, 116);
 }
 
-.eighth {
+.eighth,
+#eighth-button {
   background: rgb(56, 246, 255);
 }
 
-.ninth {
+.ninth,
+#ninth-button {
   background: rgb(255, 28, 249);
 }
 
@@ -48,4 +57,22 @@ body {
 #block-down-arrow {
   background: #fff;
   font-size: 30px;
+}
+
+.top-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.top-menu > span {
+  margin: 0 5px;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+  padding: 6px 4px;
+  cursor: pointer;
 }
