@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="//jpostal.googlecode.com/svn/trunk/jquery.jpostal.js"></script>
+  <script>
+    $(function() {
+      $('#zip1').jpostal({
+        postcode: [
+          '#zip1',
+          '#zip2'
+        ],
+        address: {
+          '#pref': '%3',
+          '#city': '%4',
+          '#area': '%5',
+          '#num': '%6',
+          '#name': '%7',
+        }
+      });
+    });
+  </script>
+  <title>jpostal</title>
+</head>
+<body>
+  <input type="text" id="zip1" />
+  -
+  <input type="text" id="zip2" />
+  <br />
+  <select id="pref">
+    <option></option>
+    <option>東京都</option>
+    <option>栃木県</option>
+    <option>宮城県</option>
+  </select>
+  <br />
+  <input type="text" id="city" /><br />
+  <input type="text" id="area" /><br />
+  <input type="text" id="num" /><br />
+  <input type="text" id="name" /><br />
+</body>
+</html>
