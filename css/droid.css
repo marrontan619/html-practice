@@ -20,6 +20,7 @@ div.droid > div.head {
 }
 
 div.head > div.tentacle {
+    content: "";
     position: relative;
     width: 5px;
     height: 52px;
@@ -103,8 +104,9 @@ div.letters > div.a {
     border-radius: 40px 0px 0px 40px / 40px 0px 0px 40px;
 }
 
-div.a > div.stick {
-    position: relative;
+div.a:after {
+    content: "";
+    position: absolute;
     top: 42px;
     left: 25px;
     width: 15px;
@@ -138,7 +140,9 @@ div.letters > div.r {
     height: 70px;
 }
 
-div.r > div.top {
+div.r:before {
+    content: "";
+    position: absolute;
     height: 30px;
     width: 40px;
     border-radius: 0px 50px 50px 0px / 0px 50px 50px 0px;
@@ -147,8 +151,10 @@ div.r > div.top {
     border-bottom: 10px solid #FFF;
 }
 
-div.r > div.bottom {
-    margin-top: -10px;
+div.r:after {
+    content: "";
+    position: absolute;
+    top: 40px;
     height: 20px;
     width: 40px;
     border-radius: 0px 50px 0px 0px / 0px 50px 0px 0px;
